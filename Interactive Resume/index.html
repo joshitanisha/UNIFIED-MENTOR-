@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button id="toggleButton" class="toggle-button">
+            <span id="toggleIcon" class="icon">🌞</span>
+        </button>
+        <header>
+            <h1>Tanisha Joshi</h1>
+            <p>Software Engineer</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="profile">
+            <h2>Profile</h2>
+            <p>Dedicated and enthusiastic Computer Engineer, from PICT College, Pune.
+                Skilled in software development, data analysis, and problem-solving, with a solid understanding of programming languages such as Java, Python, and C++.
+                Proven ability to manage multiple projects, meet deadlines, and work effectively both independently and as part of a team.
+                Eager to leverage my technical skills and academic background to contribute to innovative projects in a dynamic and growth-oriented organization.
+            </p>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <p><i>  <strong> Software Engineer, Accenture </strong>
+                June 2021 - Present </i>
+                
+              <br>  Developed software solutions, collaborated with cross-functional teams, and wrote efficient code in Java and Python.
+                Key achievements: Led a project to early completion, improved application performance by 20%, and received 'Employee of the Month' award.</br>
+               <i><strong>Software Developer, Wipro 
+                June 2018 - May 2021 </i></strong>
+                
+                Developed web applications using JavaScript, React, and Node.js, and collaborated with clients to deliver solutions.
+                Key achievements: Migrated legacy systems to modern frameworks, reducing load times by 30%.</p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p> <br> Bachelor of Engineering in Computers, PICT College, Pune
+                Year of Graduation: 2027 </br>
+                
+                <br> Junior College, KHS School
+                Year of Completion: 2022 </br>
+                
+               <br> High School, KHS School
+                Year of Completion: 2020 </p></br>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <p><br> Project Management ,Public Relations ,Effective Communication</p></br>
+        </section>
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul id="certificationList">
+                <!-- List of certifications will appear here -->
+            </ul>
+            <input type="file" id="certificationUpload" class="upload-input" hidden>
+            <button id="uploadButton" class="upload-button">Upload Certification</button>
+        </section>
+        <section id="contact">
+            <p>Email: <a href="mailto:your.email@example.com">joshitanisha339@gmail.com</a></p>
+    <p>Phone: +91 9175118369 </p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">https://www.linkedin.com/in/tanisha-joshi-a77815279/</a></p>
+                <button onclick="showSlide('slide1')">Previous</button>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
